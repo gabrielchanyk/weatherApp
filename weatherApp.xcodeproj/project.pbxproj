@@ -40,6 +40,7 @@
 		B5AFFF6226BF52BB0058E9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5AFFF6526BF52BB0058E9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5AFFF6726BF52BB0058E9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D29C7E26CC753800D59AB5 /* Simulator Screen Recording - iPhone 12 Pro Max - 2021-08-17 at 18.50.35.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simulator Screen Recording - iPhone 12 Pro Max - 2021-08-17 at 18.50.35.mp4"; sourceTree = SOURCE_ROOT; };
 		B5D9D9B326C059940055C4C2 /* addedCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addedCitiesViewController.swift; sourceTree = "<group>"; };
 		B5D9D9B526C05A9A0055C4C2 /* listCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listCitiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +91,7 @@
 		B5AFFF5826BF52BA0058E9E7 /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				B5D29C7E26CC753800D59AB5 /* Simulator Screen Recording - iPhone 12 Pro Max - 2021-08-17 at 18.50.35.mp4 */,
 				B510CEAB26C17D6000376186 /* Data */,
 				B591619A26C088EB008ACB5C /* Util */,
 				B5D9D9B126C0590E0055C4C2 /* Model */,
