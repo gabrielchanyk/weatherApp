@@ -13,6 +13,7 @@ class weatherInfoViewController: UIViewController
 {
     @IBOutlet weak var lblHum: UILabel!
     @IBOutlet weak var lblTemp: UILabel!
+    @IBOutlet weak var ivWeather: UIImageView!
     var selectedCity: Cities?
     
     
@@ -48,6 +49,13 @@ class weatherInfoViewController: UIViewController
                     //set label values
                     lblHum.text = "\(String(describing: weatherInfo.main["humidity"]!))%"
                     lblTemp.text = mf.string(from: temp)
+                    
+                    //get weather image
+                    Service.shared.getUrlInfo(url: "http://openweathermap.org/img/wn/\(weatherInfo.weather[0].icon)@2x.png"){(data) in
+                        DispatchQueue.main.async {[unowned self]in
+                            self.ivWeather.image = UIImage(data:data)
+                        }
+                    }
                 }
             }
         }

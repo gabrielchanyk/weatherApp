@@ -134,6 +134,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="juX-Ji-VEP"/>
                     <connections>
+                        <outlet property="ivWeather" destination="M9Z-Ja-ghE" id="Rbv-pD-Xx4"/>
                         <outlet property="lblHum" destination="lgk-RA-8DV" id="cSy-DS-Xam"/>
                         <outlet property="lblTemp" destination="CoU-U4-nxy" id="UUG-a5-xBG"/>
                     </connections>

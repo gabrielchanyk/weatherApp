@@ -11,7 +11,15 @@ class WeatherInfo :Codable
 {
     //main is the key were info is
     var main: Dictionary<String,Double>
+    var weather :[ImageInfo]
 }
+
+class ImageInfo:Codable
+{
+    var icon: String
+    
+}
+
 
 class CountryInfo :Codable
 {
